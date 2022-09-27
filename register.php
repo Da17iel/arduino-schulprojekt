@@ -14,7 +14,7 @@ if(!isset($_SESSION['LoggedIn'])) {
 </head>
 <body>
     <div class="container">
-        <form method="post" action="process-register.php">
+        <form method="post" action="/process-forms/process-register.php">
             <div id="div_login">
                 <h1>Register</h1>
                 <?php
