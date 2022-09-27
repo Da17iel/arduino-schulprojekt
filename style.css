@@ -1,12 +1,12 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin: 50px;
 }
 
 .errorMsg {
     color: red;
     font: bold;
-}
-
-.container {
-    margin: 50px;
 }

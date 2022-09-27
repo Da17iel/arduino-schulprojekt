@@ -1,9 +1,9 @@
 <?php
-include "config.php";
+include "../config.php";
 $errors = array();
 
 if(isset($_SESSION['LoggedIn'])) {
-    header('Location: home.php');
+    header('Location: ../../pages/home.php');
 }
 
 if(isset($_POST['but_submit'])){
@@ -38,11 +38,11 @@ if(isset($_POST['but_submit'])){
 
         mysqli_query($con, $query);
         $_SESSION['LoggedIn'] = true;
-        header('Location: home.php');
+        header('Location: ../../pages/home.php');
     } else {
         // Return the errors
         $_SESSION['errors'] = $errors;
-        header('Location: register.php');
+        header('Location: ../register.php');
     }
     
     

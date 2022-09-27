@@ -1,5 +1,5 @@
 <?php
-include "config.php";
+include "../config.php";
 
 
 if(isset($_POST['but_submit'])){
@@ -24,7 +24,7 @@ if(isset($_POST['but_submit'])){
     
             if($count > 0){
                 $_SESSION['LoggedIn'] = true;
-                header('Location: home.php');
+                header('Location: ../../pages/home.php');
             }else{
                 echo "Invalid username and password";
                 //header('Location: index.html');
