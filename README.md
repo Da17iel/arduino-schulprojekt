@@ -1,8 +1,12 @@
 # arduino-schulprojekt
 ## Kurze Beschreibung
-In der Schule haben wir die Möglichkeit bekommen mit einem Arduino verschiedene Projekt zu realisieren. Wir haben uns für folgendes entschieden:
-Das Arduino Geräte sollte an einen Kühlschrank oder ähnliches angebracht werden. Jetzt kann das Arduino mit einem Ultraschallsensor messen wie lange die Kühlschranktür offen bleibt. Ebenfalls wird man auch sehen können wir oft der Kühlschrank an einem Tag geöffnet wurde. 
-Alle diese Daten sollte dannach auf dieser Website angezeigt werden. Das ist natürlich hinter einem Login System versteckt. 
+In der Schule haben wir die Möglichkeit bekommen mit einem Arduino verschiedene Projekt zu realisieren. 
+Wir haben uns für folgendes entschieden: 
+Wir werden mit einem Arduino einen kleinen Ultraschallsensor machen, welcher verschiedenen Daten über einen Input liefert. 
+Das Arduino sollte an einen Kühlschrank oder ähnlichem angebracht werden. 
+Schlussendlich sollte das Gerät mit einem Ultraschallsensor messen wie lange die Kühlschranktür offen bleibt. Ebenfalls wird man auch sehen können wir oft und für wie lang der Kühlschrank an einem Tag geöffnet wurde. 
+Alle diese Daten sollte dannach auf dieser Website angezeigt werden. Dies werde ich mithilfe von [Google Charts](https://developers.google.com/chart) realisieren. 
+Das ist natürlich hinter einem Login System versteckt. 
 
 ## Link zur Website
 Die Website wird wahrscheinlich nur eine kurze Zeit nach Release verfügbar sein. Der Link wird aber trozdem hier eingefügt:<br>
