@@ -10,3 +10,21 @@ main {
     color: red;
     font: bold;
 }
+
+.btn {
+    border: 1px solid black;
+    border-radius: 2px;
+
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+
+    padding: 5px;
+    transition: 0.1s ease-in;
+}
+
+.btn:hover {
+    background-color: gray;
+    border: 1px solid gray;
+}

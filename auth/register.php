@@ -29,9 +29,9 @@ if(isset($_SESSION['LoggedIn'])) {
             <input type="password" class="textbox" id="txt_pwd2" name="txt_pwd2" required/>
         </div>
         <div>
-            <input type="submit" value="Submit" name="but_submit" id="but_submit" />
+            <input type="submit" value="Submit" class="btn" name="but_submit" id="but_submit" />
         </div>
-        <a href="./login.php">Anmelden</a>
+        <a href="./login.php" class="btn">Anmelden</a>
     </div>
 </form>
 

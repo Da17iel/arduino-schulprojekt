@@ -17,9 +17,21 @@ if(isset($_POST['but_logout'])){
 <?php include "../Templates/header.php" ?>
 
 <h1>Homepage</h1>
-<h2>Du bist jetzt angemeldet</h2>
-<form method='post' action="">
-    <input type="submit" value="Logout" name="but_logout">
-</form>
+
+<div class="logoutButton">
+    <form method='post' action="">
+        <input class="btn" type="submit" value="Logout" name="but_logout">
+    </form>
+</div>
+
+<h2>What is this site?</h2>
+
+
+<h2>What is our Project?</h2>
+
+
+<h2>The Data</h2>
+<p>Here is the data to the project that we have retrieved from our Arduino</p>
+<a href="./showData.php">Here is the Link</a>
 
 <?php include "../Templates/footer.php" ?>
