@@ -2,6 +2,7 @@
 include "../auth/config.php";
 
 $lastMonday = date("Y-m-d", strtotime("last Monday -7 Days"));
+$dauerArray = Array();
 
 $weekDaysName = [
     'Monday',
@@ -25,17 +26,14 @@ $weekDaysDate = [
 
 for ($i=0; $i < count($weekDaysName); $i++) { 
     // SQL Query
-    $query = "SELECT * FROM kuehlschrankdaten WHERE SchrankAuf like '" . $weekDaysDate[$weekDaysName[$i]] . "%';";
+    $query = "SELECT SUM(SchrankOffenDauer) AS Dauer FROM kuehlschrankdaten WHERE SchrankAuf like '" . $weekDaysDate[$weekDaysName[$i]] . "%';";
     $result = mysqli_query($con, $query);
     // Get the Data from result
     $data = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-    for ($a=0; $a < count($data); $a++) {
-        echo "Der Schrank war am " . $weekDaysName[$a] . " für " . $data[$a]['SchrankOffenDauer'] . " Sekunden offen!<br>";
-    }
-    
+    echo "Der Schrank war am " . $weekDaysName[$i] . " für " . $data[0]['Dauer'] . " Sekunden offen!<br>";
+    array_push($dauerArray, $data[0]['Dauer']);
 }
-
 
 
 // Free result set
