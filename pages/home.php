@@ -50,6 +50,6 @@ if(isset($_POST['but_logout'])){
 
 <h2 id="daten">Die Daten</h2>
 <p>Unter folgendem Link können Sie die Daten, welche von dem Arduino gesammelt wurden, einsehen:</p>
-<a href="./showData.php">Here is the Link</a>
+<a href="./showData.php">Hier ist der Link</a>
 
 <?php include "../Templates/footer.php" ?>

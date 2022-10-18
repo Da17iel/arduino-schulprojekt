@@ -3,7 +3,7 @@ include "../config.php";
 
 
 if(isset($_POST['but_submit'])){
-    $email = mysqli_real_escape_string($con,$_POST['txt_uname']);
+    $email = mysqli_real_escape_string($con,$_POST['txt_email']);
     $password = mysqli_real_escape_string($con,$_POST['txt_pwd']);
     $passwordCrypt = password_hash($password, PASSWORD_DEFAULT);
 
@@ -35,8 +35,4 @@ if(isset($_POST['but_submit'])){
     } else {
         echo "Das Passwort simmt nicht";
     }
-    
-    
-
 }
-
