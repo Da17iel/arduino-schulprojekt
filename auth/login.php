@@ -15,11 +15,11 @@ if(isset($_SESSION['LoggedIn'])) {
             <input type="text" class="textbox" id="txt_uname" name="txt_uname" placeholder="example@gmail.com" />
         </div>
         <div>
-            <label for="txt_pwd">Password</label>
-            <input type="password" class="textbox" id="txt_pwd" name="txt_pwd" placeholder="Password"/>
+            <label for="txt_pwd">Passwort</label>
+            <input type="password" class="textbox" id="txt_pwd" name="txt_pwd" placeholder="Passwort"/>
         </div>
         <div>
-            <input type="submit" value="Submit" class="btn" name="but_submit" id="but_submit" />
+            <input type="submit" value="Anmelden" class="btn" name="but_submit" id="but_submit" />
         </div>
         <a href="./register.php" class="btn">Noch nicht angemeldet?</a>
     </div>

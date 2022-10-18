@@ -26,14 +26,14 @@ if(isset($_POST['but_submit'])){
                 $_SESSION['LoggedIn'] = true;
                 header('Location: ../../pages/home.php');
             }else{
-                echo "Invalid username and password";
+                echo "Falsche Email oder Passwort";
                 //header('Location: index.html');
             }
         } else {
-            echo "Either Email or Password is empty";
+            echo "Bitte füllen Sie alle Felder aus";
         }
     } else {
-        echo "Password is not correct";
+        echo "Das Passwort simmt nicht";
     }
     
     

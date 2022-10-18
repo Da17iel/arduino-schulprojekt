@@ -31,7 +31,7 @@ for ($i=0; $i < count($weekDaysName); $i++) {
     // Get the Data from result
     $data = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-    echo "Der Schrank war am " . $weekDaysName[$i] . "(" . $weekDaysDate[$weekDaysName[$i]] . ") für " . $data[0]['Dauer'] . " Sekunden offen!<br>";
+    //echo "Der Schrank war am " . $weekDaysName[$i] . "(" . $weekDaysDate[$weekDaysName[$i]] . ") für " . $data[0]['Dauer'] . " Sekunden offen!<br>";
     array_push($dauerArray, $data[0]['Dauer']);
 }
 

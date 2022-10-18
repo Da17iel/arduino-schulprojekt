@@ -49,15 +49,15 @@ include "./getData.php";
 
 <div id="chart_div" style="width: 900px; height: 500px;"></div>
 
-<p>Am <b id="dayMostOpen"></b> was the day where the refrigirator open the most time.</p>
+<p>Am <b id="dayMostOpen"></b> war der Kühlschrank am länsten offen.</p>
 
 <form action="./generateData.php" method="post">
-    <label for="repeat">Amount of cols to generate</label>
+    <label for="repeat">Anzahl an Columns generieren:</label>
     <input type="number" name="repeat" id="repeat">
 
     <input type="submit" value="submit">
 </form>
 
-<a href="./home.php">Return Home</a>
+<a href="./home.php">Zurück zur Startseite</a>
 
 <?php include "../Templates/footer.php" ?>

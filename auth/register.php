@@ -22,7 +22,7 @@ if(isset($_SESSION['LoggedIn'])) {
             <input type="email" class="textbox" id="txt_email" name="txt_email" placeholder="example@gmail.com" required/>
         </div>
         <div>
-            <label for="txt_pwd1">Password</label>
+            <label for="txt_pwd1">Passwort</label>
             <input type="password" class="textbox" id="txt_pwd1" name="txt_pwd1" required/>
         </div>
         <div>
@@ -30,9 +30,9 @@ if(isset($_SESSION['LoggedIn'])) {
             <input type="password" class="textbox" id="txt_pwd2" name="txt_pwd2" required/>
         </div>
         <div>
-            <input type="submit" value="Submit" class="btn" name="but_submit" id="but_submit" />
+            <input type="submit" value="Registrieren" class="btn" name="but_submit" id="but_submit" />
         </div>
-        <a href="./login.php" class="btn">Anmelden</a>
+        <a href="./login.php" class="btn">Haben Sie bereits ein Konto?</a>
     </div>
 </form>
 
