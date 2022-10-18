@@ -5,6 +5,7 @@ if(isset($_SESSION['LoggedIn'])) {
 ?>
 
 <?php include "../Templates/header.php" ?>
+<script>document.title = "Login";</script>
 
 <form method="post" action="./process-forms/process-login.php">
     <div id="div_login">

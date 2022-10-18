@@ -15,6 +15,7 @@ if(isset($_POST['but_logout'])){
 
 
 <?php include "../Templates/header.php" ?>
+<script>document.title = "Home";</script>
 
 <h1>Homepage</h1>
 

@@ -2,7 +2,7 @@
 include "../Templates/header.php"; 
 include "./getData.php";
 ?>
-
+<script>document.title = "Our Data";</script>
 <h1>The Data</h1>
 
 <script>
