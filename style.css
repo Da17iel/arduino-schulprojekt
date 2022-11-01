@@ -20,7 +20,6 @@ body {
 
 .ContentBox {
     width: 40vw;
-    height: 35vh;
     padding: 50px;
     background-color: black;
     border-radius: 15px;
@@ -75,11 +74,14 @@ main {
     border: 1px solid gray;
 }
 
+.authForm {
+    max-width: 100%;
+}
 
 .authForm div input[type=email], input[type=password] {
     padding: 8px;
     margin: 10px 0;
-    width: 60vw;
+    width: 90%;
     max-width: 720px;
     border: 2px solid black;
     border-radius: 5px;

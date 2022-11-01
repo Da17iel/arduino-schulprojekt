@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- Google Fonts Scripts -->
     <script src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src="../pages/chartsLoader.js"></script>
 </head>
 <body>
     <main>

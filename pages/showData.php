@@ -43,7 +43,8 @@ include "./getData.php";
         DataValues.shift()
 
         var newArray = DataValues.sort();
-        console.log(newArray[-1])
+        console.log(newArray);
+        document.getElementById("dayMostOpen").innerHTML = newArray[0][0];
     }
 </script>
 
